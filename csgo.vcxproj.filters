@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{eacc5098-1648-40b9-ab63-5df5ef67ca21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SDK\Interfaces">
+      <UniqueIdentifier>{012d3b98-6333-4c79-839f-42608fb7c915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\InterfaceManager">
+      <UniqueIdentifier>{b22ba4e8-58a4-4bdf-ac23-a5511fdd0ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Utilities">
+      <UniqueIdentifier>{f16be45b-6357-48fc-aa95-e554694ae342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Classes">
+      <UniqueIdentifier>{5bd17cd3-70ad-486f-9bae-acf3abd7ef23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Classes\Entities">
+      <UniqueIdentifier>{b98788b8-7ca7-44d0-bdfb-846b2b2c4bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions">
+      <UniqueIdentifier>{385b0b4a-545a-4e2e-a411-05a998986e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Visuals">
+      <UniqueIdentifier>{a5bd8fa8-8053-4a75-a4dd-2c22a3a86766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Aimbot">
+      <UniqueIdentifier>{fc8667df-653b-47e8-8f83-a46d81dd05e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Aimbot\Wall">
+      <UniqueIdentifier>{2c4f08d5-2dc9-4b35-b375-521823dca708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\BunnyHop">
+      <UniqueIdentifier>{6bebf5a8-a4f5-4513-90fb-d32e09a4cf38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Aimbot\Resolver">
+      <UniqueIdentifier>{b68f2205-3b33-4af5-bb63-c79ae365abba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Misc Functions">
+      <UniqueIdentifier>{785a1412-f8f4-4f86-9b6f-764d6119d37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Events">
+      <UniqueIdentifier>{c25c799a-fc96-4f96-a332-3c65afd59ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu">
+      <UniqueIdentifier>{8579f4bd-8eb0-4d75-9e6d-83658e9df811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\MovementFix">
+      <UniqueIdentifier>{72a659ac-014b-48f8-a4b4-81b023e6167e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Prediction">
+      <UniqueIdentifier>{5fac61bb-5fcd-4846-abe5-64f9b7989020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\HookManager">
+      <UniqueIdentifier>{9747e72f-0288-4dc5-8c44-5206e899ce97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\HookManager\Hooks">
+      <UniqueIdentifier>{f41b51b0-4995-4604-9a16-0f96a1514f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Visuals\Glow">
+      <UniqueIdentifier>{0e9759c5-e199-460f-88a3-b80fdfe74180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Aimbot\NoSpread">
+      <UniqueIdentifier>{457f4890-b6d6-45b0-a162-23e30394d268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\SkinChanger">
+      <UniqueIdentifier>{4e4f1a7c-3aaf-43d9-a9f2-e55d05c55074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Aimbot\BackTrack">
+      <UniqueIdentifier>{bef7d4c2-8685-439a-a1fe-e70d0ebf0f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Aimbot\LagCompensation">
+      <UniqueIdentifier>{6a427921-e1b4-4598-bb5f-d46720ef35e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\GrenadePrediction">
+      <UniqueIdentifier>{e8cb6559-2e67-49d3-9fcb-3f0e4edf5087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls">
+      <UniqueIdentifier>{c5ecb181-e44d-4e46-9981-2b5488db69fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\Frame">
+      <UniqueIdentifier>{b04b6a91-7b06-4890-9b2d-dc4065ed0004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\CheckBox">
+      <UniqueIdentifier>{8cf9f301-bcaf-4660-a7ac-ebb65293c995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\Group">
+      <UniqueIdentifier>{2033deda-fab5-400b-9463-589d0c1c79ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\Tab">
+      <UniqueIdentifier>{fdee71db-f548-46a5-a141-c48f6537aeea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\Slider">
+      <UniqueIdentifier>{d34c604c-3cc9-4dc7-9e18-8215a0f17419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\ComboBox">
+      <UniqueIdentifier>{a336cb1e-4249-4670-a585-28581d3fd83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\SelectionBox">
+      <UniqueIdentifier>{287ae76f-48aa-4628-a8de-284ebeefec3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\KeyBox">
+      <UniqueIdentifier>{d648e843-7f3f-4406-a7e7-5cbba4a48770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Menu\Controls\InputBox">
+      <UniqueIdentifier>{2d907333-05c3-4f22-9e16-c7fa25875754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Utilities\LoggerUtils">
+      <UniqueIdentifier>{589c891a-5468-42c2-b21c-dc4a9fca4b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Utilities\LowerBodyTimer">
+      <UniqueIdentifier>{56811c76-6ec3-4e06-8c95-34cd8fb41fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Utilities\MaterialUtils">
+      <UniqueIdentifier>{10120471-3969-4541-b744-a92b15af4857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Utilities\MathUtils">
+      <UniqueIdentifier>{58ce1856-d5cc-428e-b6f8-f24ebd3ff7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Utilities\MemoryUtils">
+      <UniqueIdentifier>{0be68bd6-7a2b-475e-865f-bdb194b525dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Utilities\NetVars">
+      <UniqueIdentifier>{e67447ee-5a1e-4d51-bf2b-0e710de5600b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Utilities\RenderUtils">
+      <UniqueIdentifier>{00faf115-5e22-4d78-87cf-206b40db984c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\AntiAim">
+      <UniqueIdentifier>{6744ea48-51fa-4f87-a984-216abf28352d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Functions\Aimbot\HitScan">
+      <UniqueIdentifier>{a78635d6-8d83-4adf-b73c-553e18bafc81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceManager.cpp">
+      <Filter>SDK\InterfaceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HookManager.cpp">
+      <Filter>Cheat\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>SDK\Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Cheat\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Cheat\Functions\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoWall.cpp">
+      <Filter>Cheat\Functions\Aimbot\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="EPrediction.cpp">
+      <Filter>Cheat\Functions\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="BunnyHop.cpp">
+      <Filter>Cheat\Functions\BunnyHop</Filter>
+    </ClCompile>
+    <ClCompile Include="LagCompensation.cpp">
+      <Filter>Cheat\Functions\Aimbot\BackTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Cheat\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementFix.cpp">
+      <Filter>Cheat\Functions\MovementFix</Filter>
+    </ClCompile>
+    <ClCompile Include="ConVar.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscFunctions.cpp">
+      <Filter>Cheat\Functions\Misc Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModelExecute.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Present.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnd.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="RunCommand.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Reset.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SendDatagram.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="GetLastTimeStamp.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityUtils.cpp">
+      <Filter>Cheat\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Cheat\Functions\Visuals\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpread.cpp">
+      <Filter>Cheat\Functions\Aimbot\NoSpread</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinChanger.cpp">
+      <Filter>Cheat\Functions\SkinChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleStrafer.cpp">
+      <Filter>Cheat\Functions\Misc Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceRay.cpp">
+      <Filter>Cheat\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SpreadResolver.cpp">
+      <Filter>Cheat\Functions\Aimbot\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>Cheat\Functions\Aimbot\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="LagFix.cpp">
+      <Filter>Cheat\Functions\Aimbot\LagCompensation</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_md5.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>Cheat\Functions\SkinChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="GrenadePrediction.cpp">
+      <Filter>Cheat\Functions\GrenadePrediction</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpreadStepResolver.cpp">
+      <Filter>Cheat\Functions\Aimbot\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpreadViewResolver.cpp">
+      <Filter>Cheat\Functions\Aimbot\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Cheat\Menu\Controls\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Cheat\Menu\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>Cheat\Menu\Controls\CheckBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Cheat\Menu\Controls\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab.cpp">
+      <Filter>Cheat\Menu\Controls\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Cheat\Menu\Controls\Slider</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboBox.cpp">
+      <Filter>Cheat\Menu\Controls\ComboBox</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpreadLbyResolver.cpp">
+      <Filter>Cheat\Functions\Aimbot\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpreadExperimental.cpp">
+      <Filter>Cheat\Functions\Aimbot\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionBox.cpp">
+      <Filter>Cheat\Menu\Controls\SelectionBox</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBox.cpp">
+      <Filter>Cheat\Menu\Controls\KeyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBox.cpp">
+      <Filter>Cheat\Menu\Controls\InputBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Cheat\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuEngine.cpp">
+      <Filter>Cheat\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Cheat\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerUtils.cpp">
+      <Filter>Cheat\Utilities\LoggerUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="LowerBodyTimer.cpp">
+      <Filter>Cheat\Utilities\LowerBodyTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialUtils.cpp">
+      <Filter>Cheat\Utilities\MaterialUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtils.cpp">
+      <Filter>Cheat\Utilities\MathUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUtils.cpp">
+      <Filter>Cheat\Utilities\MemoryUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>Cheat\Utilities\NetVars</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderUtils.cpp">
+      <Filter>Cheat\Utilities\RenderUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Cheat\Functions\AntiAim</Filter>
+    </ClCompile>
+    <ClCompile Include="HitScan.cpp">
+      <Filter>Cheat\Functions\Aimbot\HitScan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InterfaceManager.h">
+      <Filter>SDK\InterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="HookManager.h">
+      <Filter>Cheat\HookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserCmd.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderView.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRender.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>SDK\Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialSystem.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityList.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="VGui.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelInfo.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Cheat\Functions\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTrace.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoWall.h">
+      <Filter>Cheat\Functions\Aimbot\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsProps.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EPrediction.h">
+      <Filter>Cheat\Functions\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveHelper.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMovement.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="BunnyHop.h">
+      <Filter>Cheat\Functions\BunnyHop</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CVar.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LagCompensation.h">
+      <Filter>Cheat\Functions\Aimbot\BackTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Cheat\Functions\Aimbot\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChannelInfo.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventManager.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventListener.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementFix.h">
+      <Filter>Cheat\Functions\MovementFix</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRenderBeams.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>Cheat\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugOverlay.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Cheat\Functions\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="MemAlloc.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscFunctions.h">
+      <Filter>Cheat\Functions\Misc Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="CVMTHookManager.h">
+      <Filter>Cheat\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomStuff.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityUtils.h">
+      <Filter>Cheat\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Cheat\Functions\Visuals\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSound.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinChanger.h">
+      <Filter>Cheat\Functions\SkinChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="LagFix.h">
+      <Filter>Cheat\Functions\Aimbot\LagCompensation</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum_md5.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlVector.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlMemory.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadePrediction.h">
+      <Filter>Cheat\Functions\GrenadePrediction</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerResource.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Cheat\Menu\Controls\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Cheat\Menu\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>Cheat\Menu\Controls\CheckBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Cheat\Menu\Controls\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.h">
+      <Filter>Cheat\Menu\Controls\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Cheat\Menu\Controls\Slider</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboBox.h">
+      <Filter>Cheat\Menu\Controls\ComboBox</Filter>
+    </ClInclude>
+    <ClInclude Include="StudioRender.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionBox.h">
+      <Filter>Cheat\Menu\Controls\SelectionBox</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBox.h">
+      <Filter>Cheat\Menu\Controls\KeyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBox.h">
+      <Filter>Cheat\Menu\Controls\InputBox</Filter>
+    </ClInclude>
+    <ClInclude Include="XorString\XorStr.hpp" />
+    <ClInclude Include="Menu.h">
+      <Filter>Cheat\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerUtils.h">
+      <Filter>Cheat\Utilities\LoggerUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="LowerBodyTimer.h">
+      <Filter>Cheat\Utilities\LowerBodyTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialUtils.h">
+      <Filter>Cheat\Utilities\MaterialUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Cheat\Utilities\MathUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUtils.h">
+      <Filter>Cheat\Utilities\MemoryUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>Cheat\Utilities\NetVars</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderUtils.h">
+      <Filter>Cheat\Utilities\RenderUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Cheat\Functions\AntiAim</Filter>
+    </ClInclude>
+    <ClInclude Include="AimbotStruct.h">
+      <Filter>Cheat\Functions\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneAccessor.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
